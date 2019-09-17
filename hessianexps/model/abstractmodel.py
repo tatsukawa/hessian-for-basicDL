@@ -5,7 +5,8 @@ Different models differ only by their prediction function predict().
 """
 import autograd
 from autograd import numpy as np
-from autograd.util import flatten, quick_grad_check
+from autograd.misc import flatten
+from autograd.util import quick_grad_check
 
 import model
 
