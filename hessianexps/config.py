@@ -41,7 +41,7 @@ def parse_command_line_arguments():
     parser.add_argument('--hessian-calc-period', type=int, default=0,
                         help='Calculate hessian at every N iteration. '
                              '0 means do not calculate at intermediate iterations.')
-    parser.add_argument('--results-folder', type=str, default='/Users/leventsagun/Dropbox/calismalar/second_order_explorations_NIPS2017',
+    parser.add_argument('--results-folder', type=str, default='./',
                         help='Folder in which to put all results folders')
     parser.add_argument('--experiment-folder', type=str, default='defaults',
                         help='Folder in which to write results files')
